@@ -2,7 +2,7 @@
 
 ### About This Resource
 
-This repository is a resource for learning the basics of speaking the Thai language. Learning content can be found in [this periodically updated document.](/speaking-thai)
+This repository is a resource for learning the basics of speaking the Thai language. Learning content can be found in [this periodically updated document.](/speaking-thai/speaking-thai)
 
 ### Using This Resource
 * Use the table of contents to jump between sections quickly and easily.
