@@ -1,10 +1,12 @@
-<!-- STYLESHEET -->
-<style>
-	.txt-lg { font-size: calc(1em + 2px) }
-</style>
-<!-- END STYLESHEET -->
-
 #Speaking Thai
+
+This document is a resource for learning the basics of speaking the Thai language.
+
+* Use the table of contents to jump between sections quickly and easily.
+* Most newly-learned information is added to the *Miscellaneous Vocabulary* section at the bottom of the document.
+* As logical and linguistic connections arise, information will be periodically removed from the *Miscellaneous Vocabulary* section and taxonomized in other sections.
+
+##Table of Contents
 
 [toc]
 
@@ -18,7 +20,7 @@
 
 ##Basics & Etiquette
 
-<span class="txt-lg">Append ***ka/krap*** to sentences or responses for formality.</span>
+Append ***ka/krap*** to sentences or responses for formality.
 
 ###Affirmative & Negative
 
