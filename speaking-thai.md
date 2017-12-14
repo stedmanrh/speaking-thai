@@ -1,4 +1,4 @@
-#Speaking Thai
+# Speaking Thai
 
 This document is a resource for learning the basics of speaking the Thai language.
 
@@ -6,30 +6,30 @@ This document is a resource for learning the basics of speaking the Thai languag
 * Most newly-learned information is added to the *Miscellaneous Vocabulary* section at the bottom of the document.
 * As logical and linguistic connections arise, information will be periodically removed from the *Miscellaneous Vocabulary* section and taxonomized in other sections.
 
-##Table of Contents
+## Table of Contents
 
 [toc]
 
 ---
 
-###Weekly Questions
+### Weekly Questions
 
 * 
 
 ---
 
-##Basics & Etiquette
+## Basics & Etiquette
 
 Append ***ka/krap*** to sentences or responses for formality.
 
-###Affirmative & Negative
+### Affirmative & Negative
 
 English Word | Thai Translation
 ---|---
 yes | *chai*
 no | *mai [chai]*
 
-###Greetings
+### Greetings
 English Phrase | Thai Translation
 ---|---
 hello | *sa-wat dii*
@@ -37,7 +37,7 @@ how's it going? | *bpen-ngai?*
 how are you? | *sa-baai dii mai?*
 I'm fine | *[pom/chan] sa-baii dii*
 
-###Introductions
+### Introductions
 English Phrase | Thai Translation
 ---|---
 what is your name? | *kun chue a-rai?*
@@ -46,14 +46,14 @@ and you? | *kun la?*
 nice to meet you | *yin dii tii dai ruu-jak*
 me too | *chen-gan*
 
-###Manners
+### Manners
 English Phrase | Thai Translation
 ---|---
 thank you | *khccp kun*
 excuse me | *khcc-tot*
 never mind | *mai bpen rai*
 
-###Misunderstandings
+### Misunderstandings
 English Phrase | Thai Translation
 ---|---
 I [don't] understand | *[mai] khao-jai*
@@ -62,9 +62,9 @@ what did you say? | *a-rai na*
 speak again | *puud ek-krang*
 wait a moment | *ro sak kruu*
 
-##Sentence Structure
+## Sentence Structure
 
-###Pronouns, Verbs, Q&A
+### Pronouns, Verbs, Q&A
 
 **"Like" (*chob*)** may act as a modifier that preceeds other verbs.
 
@@ -83,7 +83,7 @@ Subject | Verb | Interrogative
 — | **study**: *rian* | —
 — | **stop**: *yut* | —
 
-###Adjecives/Adverbs & Nouns
+### Adjecives/Adverbs & Nouns
 
 Adjective/Adverb | Noun
 ---|---
@@ -97,15 +97,15 @@ Adjective/Adverb | Noun
 **drunk**: *mao* | —
 **good**: *dii* | —
 
-###Tenses
+### Tenses
 
 Tense | Thai Translation
 ---|---
 Future (will) | *ja*
 
-##Numbers
+## Numbers
 
-###Digits
+### Digits
 
 Numeral | Thai Translation
 ------|-------------
@@ -122,7 +122,7 @@ Numeral | Thai Translation
 
 For **ordinals**, prepend *tii* (e.g. *tii nung*—"the first").             
 
-###Decimal System
+### Decimal System
 
 All applicable as suffixes or literals except for *et* (literal).
 
@@ -136,9 +136,9 @@ Numeral | Thai Translation
 ------|-------------
 20       | *yii-sip*
 
-##Time
+## Time
 
-###Days of the Week
+### Days of the Week
 Day | Thai Translation
 ---|---
 Monday | *wan-jan*
@@ -149,7 +149,7 @@ Friday | *wan suk*
 Saturday | *wan sao*
 Sunday | *wan aa-tit*
 
-###Time Intervals
+### Time Intervals
 Unit | Thai Translation
 ---|---
 day | *wan*
@@ -158,7 +158,7 @@ weekend | *sao aa-tit*
 month | *duen*
 year | *bpii*
 
-###Past, Present, Future
+### Past, Present, Future
 English Word | Thai Translation
 ---|---
 today | *wan-nii*
@@ -168,7 +168,7 @@ this | *nii*
 last | *gon*
 next | *naa*
 
-##Miscellaneous Vocabulary
+## Miscellaneous Vocabulary
 
 English Word | Thai Translation
 ---|---
