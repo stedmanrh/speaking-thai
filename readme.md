@@ -1,4 +1,4 @@
-# Speaking Thai
+# Speaking Thai 🇹🇭
 
 ### About This Resource
 
