@@ -1,3 +1,7 @@
+<nav class="open">
+	Navigation
+</nav>
+
 [toc]
 
 # Speaking Thai
@@ -168,33 +172,111 @@ English Word | Thai Translation
 <style>
 	body {
 		margin: 0;
+		padding-top: 40px;
 	}
 	
-	ul.toc {
-		display: none;
+	nav {		
+		display: flex;
+		align-items: center;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		z-index: 2;
+		height: 40px;
+		padding-left: 30px;
+		font-size: 16px;
+		font-weight: bold;
+		background: #333;
+		color: white;
+		cursor: pointer;
+	}
+	
+	nav::before {
+		content: '–';
+		margin-right: .5em;
+		position: relative;
+		top: -1px;
+	}
+	
+	nav.closed::before {
+		content: '+'
+	}
+	
+	.toc::before {
+	    content: 'Table of Contents';
+	    display: block;
+	    font-size: 18px;
+	    font-weight: bold;
+	    margin: 20px 0 10px;
+	}
+	
+	.toc {
+		position: fixed;
+	    top: 0;
+	    left:0;
+	    right: 0;
+	    z-index: 1;
+	    box-sizing: border-box;
+	    height: 100%;
+	    margin: 0;
+	    padding: 40px 30px 10px;
+	    background: #eaeaea;
+	    overflow: scroll;
+	    transition: all .3s;
+	}
+	
+	.toc.closed {
+		transform: translateY(-100%);
 	}
 	
 	@media screen and (min-width: 914px) {
-		ul.toc {
-			display: inherit;
-			position: fixed;
-		    top: 0;
-		    right: 0;
-		    z-index: 1;
-		    box-sizing: border-box;
-		    height: 100%;
-		    margin: 0;
-		    padding: 0 30px 10px;
-		    background: #eaeaea;
-		    overflow: scroll;
+		
+		nav {
+			display: none;
 		}
 		
-		ul.toc::before {
-		    content: 'Table of Contents';
-		    display: block;
-		    font-size: 18px;
-		    font-weight: bold;
-		    margin: 20px 0 10px;
+		body {
+			padding-top: 0;
+		}
+		
+		.toc {
+			left: inherit;
+			padding-top: 0px;
+		}
+		
+		.toc.closed {
+			transform: translateY(0);
+		}
+	}
+	
+	@media print {
+		nav, .toc {
+			display: none;
 		}
 	}
 </style>
+<script>
+	var nav = document.querySelector("nav");
+	var toc = document.querySelector(".toc");
+	var links = document.querySelectorAll(".toc a");
+	
+	var toggleNav = function(){
+		if(nav.className === "closed") {
+				nav.className = "";
+				toc.className = "toc";
+			}
+		else {
+			nav.className = "closed";
+			toc.className = "toc closed";
+		}
+		
+		if(window.matchMedia("(max-width: 913px)").matches){
+			window.scrollBy(0, -40);
+		}
+	}
+	
+	nav.addEventListener("click", toggleNav);
+	for(var i=0; i<links.length; i++)
+		links[i].addEventListener("click", toggleNav);
+</script>
