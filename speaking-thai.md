@@ -15,13 +15,13 @@ Append ***ka/krap*** to sentences or responses for formality.
 ### Affirmative & Negative
 
 English Word | Thai Translation
----|---
+:--|:--
 yes | *chai*
 no | *mai [chai]*
 
 ### Greetings
 English Phrase | Thai Translation
----|---
+:--|:--
 hello | *sa-wat dii*
 how's it going? | *bpen-ngai?*
 how are you? | *sa-baai dii mai?*
@@ -29,7 +29,7 @@ I'm fine | *[pom/chan] sa-baii dii*
 
 ### Introductions
 English Phrase | Thai Translation
----|---
+:--|:--
 what is your name? | *kun chue a-rai?*
 my name is... | *chan/pom chue...*
 and you? | *kun la?*
@@ -38,14 +38,14 @@ me too | *chen-gan*
 
 ### Manners
 English Phrase | Thai Translation
----|---
+:--|:--
 thank you | *khccp kun*
 excuse me | *khcc-tot*
 never mind | *mai bpen rai*
 
 ### Misunderstandings
 English Phrase | Thai Translation
----|---
+:--|:--
 I [don't] understand | *[mai] khao-jai*
 do you understand? | *khao-jai mai?*
 what did you say? | *a-rai na*
@@ -59,7 +59,7 @@ wait a moment | *ro sak kruu*
 **"Like" (*chob*)** may act as a modifier that preceeds other verbs.
 
 Subject | Verb | Interrogative
-------|----|-----------
+:--|:--|:--
 **you**: *kun* | **like**: *chob* | **what?**: *a-rai?*
 **I**: *phom* (m); *[di-]chan* (f) | **go**: *bpai* | **where?**: *tii-nai?*
 **he/she**: *khao (m); ter (f)* | **come from**: *maa jaak* | **[declaration], no?**: *mai?*
@@ -73,10 +73,10 @@ Subject | Verb | Interrogative
 — | **study**: *rian* | —
 — | **stop**: *yut* | —
 
-### Adjecives/Adverbs & Nouns
+### Adjectives/Adverbs & Nouns
 
 Adjective/Adverb | Noun
----|---
+:--|:--
 **hungry**: *hiu* | **water**: *naam*
 **much**: *maak* | **teacher**: *kru*
 **little**: *nit-noi* | **language**: *passa*
@@ -90,25 +90,25 @@ Adjective/Adverb | Noun
 ### Tenses
 
 Tense | Thai Translation
----|---
-Future (will) | *ja*
+:--|:--
+future (will) | *ja*
 
 ## Numbers
 
 ### Digits
 
 Numeral | Thai Translation
-------|-------------
-0        | *soon*             
-1        | *nung*             
-2        | *sccng*             
-3        | *saam*             
-4        | *sii*            
-5        | *haa*             
-6        | *hok*             
-7        | *jet*             
-8        | *bpeet*             
-9        | *gaao*
+:--|:--
+0   | *soon*             
+1   | *nung*             
+2   | *sccng*             
+3   | *saam*             
+4   | *sii*            
+5   | *haa*             
+6   | *hok*             
+7   | *jet*             
+8   | *bpeet*             
+9   | *gaao*
 
 For **ordinals**, prepend *tii* (e.g. *tii nung*—"the first").             
 
@@ -117,20 +117,20 @@ For **ordinals**, prepend *tii* (e.g. *tii nung*—"the first").
 All applicable as suffixes or literals except for *et* (literal).
 
 Ten Thousands | Thousands | Hundreds | Tens     | Ones
------------|--------|--------|-------|----
+:--|:--|:--|:--|:--
 *muen* | *pan* | *roy* | *sip* | *et*
 
-**Numbers in the twenties are exceptions to the decimal system above.**
+Numbers in the **twenties are exceptions** to the decimal system above.
 
 Numeral | Thai Translation
-------|-------------
+:--|:--
 20       | *yii-sip*
 
 ## Time
 
 ### Days of the Week
 Day | Thai Translation
----|---
+:--|:--
 Monday | *wan-jan*
 Tuesday| *wan eng-kaan*
 Wednesday | *wan put*
@@ -141,7 +141,7 @@ Sunday | *wan aa-tit*
 
 ### Time Intervals
 Unit | Thai Translation
----|---
+:--|:--
 day | *wan*
 week | *aa-tit*
 weekend | *sao aa-tit*
@@ -150,7 +150,7 @@ year | *bpii*
 
 ### Past, Present, Future
 English Word | Thai Translation
----|---
+:--|:--
 today | *wan-nii*
 yesterday | *muea-wan-nii*
 tomorrow | *prung-nii*
@@ -161,7 +161,7 @@ next | *naa*
 ## Miscellaneous Vocabulary
 
 English Word | Thai Translation
----|---
+:--|:--
 — | —
 
 <!-- STYLES & SCRIPTS -->
