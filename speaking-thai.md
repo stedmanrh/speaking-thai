@@ -193,22 +193,14 @@ English Word | Thai Translation
 	}
 	
 	nav::before {
-		content: '–';
+		content: "–";
 		margin-right: .5em;
 		position: relative;
 		top: -1px;
 	}
 	
 	nav.closed::before {
-		content: '+'
-	}
-	
-	.toc::before {
-	    content: 'Table of Contents';
-	    display: block;
-	    font-size: 18px;
-	    font-weight: bold;
-	    margin: 20px 0 10px;
+		content: "+";
 	}
 	
 	.toc {
@@ -230,6 +222,34 @@ English Word | Thai Translation
 		transform: translateY(-100%);
 	}
 	
+	.toc::before {
+	    content: "Table of Contents";
+	    display: block;
+	    font-size: 18px;
+	    font-weight: bold;
+	    margin: 20px 0 10px;
+	}
+	
+	.toc ul {
+		margin: 0 0 10px;
+	}
+	
+	.toc li a {
+		background: #4183C4;
+		border-radius: 5px;
+		padding: .5em;
+		line-height: 3em;
+		color: white;	
+		text-decoration: none;	
+	}
+	
+	h1::before, h2::before, h3::before {
+	    display: block;
+	    content: "";
+	    height: 60px;
+	    margin-top: -60px;
+	}
+	
 	@media screen and (min-width: 914px) {
 		
 		nav {
@@ -248,6 +268,11 @@ English Word | Thai Translation
 		.toc.closed {
 			transform: translateY(0);
 		}
+		
+		h1::before, h2::before, h3::before {
+		    height: 20px;
+		    margin-top: -20px;
+		}
 	}
 	
 	@media print {
@@ -261,7 +286,7 @@ English Word | Thai Translation
 	var toc = document.querySelector(".toc");
 	var links = document.querySelectorAll(".toc a");
 	
-	var toggleNav = function(){
+	function toggleNav(){
 		if(nav.className === "closed") {
 				nav.className = "";
 				toc.className = "toc";
@@ -269,10 +294,6 @@ English Word | Thai Translation
 		else {
 			nav.className = "closed";
 			toc.className = "toc closed";
-		}
-		
-		if(window.matchMedia("(max-width: 913px)").matches){
-			window.scrollBy(0, -40);
 		}
 	}
 	
