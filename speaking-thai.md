@@ -64,32 +64,38 @@ wait a moment | *ro sak kruu*
 
 Subject | Verb | Interrogative
 :--|:--|:--
-**you**: *kun* | **like**: *chob* | **what?**: *a-rai?*
-**I**: *phom* (m); *[di-]chan* (f) | **go**: *bpai* | **where?**: *tii-nai?*
-**he/she**: *khao (m); ter (f)* | **come from**: *maa jaak* | **[declaration], no?**: *mai?*
-**we**: *rao* | **eat**: *gin* | —
-**they**: *puak khao* | **drink**: *duem* | —
+**you**: *kun* | **like**: *chob* | **[declaration], no?**: *mai?*
+**I**: *phom* (m); *[di-]chan* (f) | **love**: *rak* | **what?**: *a-rai?*
+**he/she**: *khao (m); ter (f)* | **go**: *bpai* | **where?**: *tii-nai?*
+**we**: *rao* | **come from**: *maa jaak* | **when?**: *mue-rai*
+**they**: *puak khao* | **eat**: *gin* | **why?**: *tam-mai*
+— | **drink**: *duem* | —
+— | **stop**: *yut* | —
 — | **be**: *bpen* | —
 — | **do**: *tam* | —
+— | **work**: *tam-ngaan* | —
 — | **buy**: *sue* | —
 — | **have**: *mii* | —
 — | **speak**: *puud* | —
 — | **study**: *rian* | —
-— | **stop**: *yut* | —
 
 ### Adjectives/Adverbs & Nouns
 
 Adjective/Adverb | Noun
 :--|:--
 **hungry**: *hiu* | **water**: *naam*
-**much**: *maak* | **teacher**: *kru*
-**little**: *nit-noi* | **language**: *passa*
-**spicy**: *phet* | —
-**quickly**: *rao*| —
-**slowly**: *cha*| —
-**delicious**: *a-roi* | —
-**drunk**: *mao* | —
-**good**: *dii* | —
+**much**: *maak* | **toilet**: *hong naam*
+**little**: *nit-noi* | **tea**: *[naam] cha*
+**spicy**: *phet* | **coffee**: *gafé*
+**quickly**: *rao*| **restaurant**: *raan aa-haan*
+**slowly**: *cha*| **rice**: *khao*
+**delicious**: *a-roi* | **pork**: *moo*
+**drunk**: *mao* | **fruit**: *pol-la-mai*
+**good**: *dii* | **language**: *passa*
+**hot**: *ron* | **English**: *Angrid*
+**cold**: *yen* | **teacher**: *kru*
+— | **color**: *sii*
+— | **evening**: *yen*
 
 ### Tenses
 
@@ -132,6 +138,8 @@ Numeral | Thai Translation
 
 ## Time
 
+**time**: *wei-la*
+
 ### Days of the Week
 Day | Thai Translation
 :--|:--
@@ -142,6 +150,22 @@ Thursday | *wan pa-rue-hat*
 Friday | *wan suk*
 Saturday | *wan sao*
 Sunday | *wan aa-tit*
+
+### Months of the Year
+Month | Thai Translation
+:--|:--
+January | *mog-ga-ra-khom*
+February| *guum-pa-pan*
+March | *mii-na-khom*
+April | *mae-sa-yon*
+May | *pru-sa-pa-khom*
+June | *mii-tu-na-yon*
+July | *ga-ra-ga-da-khom*
+August | *sing-ha-khom*
+September | *gan-ya-yon*
+October | *tu-la-khom*
+November | *pru-sa-ji-ga-yon*
+December | *tan-wa-khom*
 
 ### Time Intervals
 Unit | Thai Translation
@@ -285,6 +309,9 @@ English Word | Thai Translation
 	var nav = document.querySelector("nav");
 	var toc = document.querySelector(".toc");
 	var links = document.querySelectorAll(".toc a");
+	
+	nav.className = "closed";
+	toc.className = "toc closed";
 	
 	function toggleNav(){
 		if(nav.className === "closed") {
