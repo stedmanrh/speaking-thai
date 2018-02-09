@@ -43,8 +43,8 @@ me too | *chen-gan*
 ### Manners
 English Phrase | Thai Translation
 :--|:--
-thank you | *khccp kun*
-excuse me | *khcc-tot*
+thank you | *khop kun*
+excuse me | *khoa-tot*
 never mind | *mai bpen rai*
 
 ### Misunderstandings
@@ -111,7 +111,7 @@ Numeral | Thai Translation
 :--|:--
 0   | *soon*             
 1   | *nung*             
-2   | *sccng*             
+2   | *song*             
 3   | *saam*             
 4   | *sii*            
 5   | *haa*             
